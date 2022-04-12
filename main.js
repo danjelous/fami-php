@@ -1,0 +1,1 @@
+console.log('Hier könnten wir uns mit JS austoben...');
