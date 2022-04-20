@@ -24,6 +24,8 @@
     <h1>Startseite</h1>
   </main>
 
+  <?php getFooter(); ?>
+
 </body>
 
 </html>

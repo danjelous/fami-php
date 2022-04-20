@@ -24,6 +24,7 @@
     <h1>About</h1>
   </main>
 
-</body>
+  <?php getFooter(); ?>
 
+</body>
 </html>

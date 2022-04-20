@@ -12,3 +12,15 @@ function getNav() {
   </nav>
   <?php
 }
+
+function getFooter() {
+  ?>
+
+  <footer>
+    <nav>
+      <a href="siteNotice.php">Site Notice</a>
+    </nav>
+  </footer>
+
+  <?php
+}
