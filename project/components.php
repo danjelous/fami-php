@@ -19,6 +19,7 @@ function getFooter() {
   <footer>
     <nav>
       <a href="siteNotice.php">Site Notice</a>
+      <a href="privacy.php">Privacy</a>
     </nav>
   </footer>
 
