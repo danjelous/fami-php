@@ -27,4 +27,5 @@
   <?php getFooter(); ?>
 
 </body>
+
 </html>

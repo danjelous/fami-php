@@ -1,8 +1,9 @@
 <?php
 
 // Funktionsdefinition
-function getNav() {
-  ?>
+function getNav()
+{
+?>
 
   <!-- Ab hier wieder HTML-Ausgabe -->
   <nav class="main-navbar">
@@ -10,11 +11,12 @@ function getNav() {
     <a href="about.php">About</a>
     <a href="contact.php">Contact</a>
   </nav>
-  <?php
+<?php
 }
 
-function getFooter() {
-  ?>
+function getFooter()
+{
+?>
 
   <footer>
     <nav>
@@ -23,5 +25,5 @@ function getFooter() {
     </nav>
   </footer>
 
-  <?php
+<?php
 }
