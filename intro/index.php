@@ -98,7 +98,7 @@
 
   // Suchen
   echo 'String enthält Leerzeichen: ' . str_contains($myString, ' ') . '<br>';
-  
+
   // indexOf Equivalent
   echo 'String enthält "2" an Stelle: ' . strpos($myString, '2') . '<br>';
   ?>
