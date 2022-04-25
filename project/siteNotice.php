@@ -20,8 +20,10 @@
   getNav();
   ?>
 
-  <main>
-    <h1>Site Notice</h1>
+  <main class="container">
+    <section class="content-section">
+      <h1>Site Notice</h1>
+    </section>
   </main>
 
   <?php getFooter(); ?>

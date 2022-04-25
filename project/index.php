@@ -20,8 +20,15 @@
   getNav();
   ?>
 
-  <main>
-    <h1>Startseite</h1>
+  <main class="container">
+    <section class="content-section">
+      <h1>Startseite</h1>
+    </section>
+
+    <section class="content-section">
+      <h2>Important stuff</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facilis quibusdam, hic deserunt vero corporis, tempora alias suscipit tempore mollitia at placeat illum. Quos sapiente corrupti est, reiciendis quae dolores.</p>
+    </section>
   </main>
 
   <?php getFooter(); ?>

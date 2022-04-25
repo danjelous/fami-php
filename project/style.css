@@ -24,3 +24,17 @@ html {
 .main-navbar a:hover {
   color: antiquewhite;
 }
+
+.container {
+  max-width: 1200px;
+}
+
+.content-section {
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .content-section {
+    padding: 2rem 5rem;
+  }
+}
