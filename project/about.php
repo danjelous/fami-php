@@ -7,17 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
 
-  <link rel="stylesheet" href="style.css">
+  <?php
+  // Inhalt des Files inkludieren ('reinladen')
+  include 'components.php';
+
+  // Stylesheet ohne caching platzieren
+  getStylesheet(); 
+  ?>
 </head>
 
 <body>
 
   <?php
-  // Inhalt des Files inkludieren ('reinladen')
-  include 'components.php';
-
-  // Funktionsaufruf
-  getNav();
+    // Funktionsaufruf
+    getNav();
   ?>
 
   <main class="container">

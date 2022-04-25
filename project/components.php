@@ -1,5 +1,10 @@
 <?php
 
+function getStylesheet() {
+  // Umgeht eventuelles Caching vom Stylesheet
+  echo '<link rel="stylesheet" href="style.css?cb=' . gmdate("Y-m-d\TH:i:s\Z") . '">';
+}
+
 // Funktionsdefinition
 function getNav()
 {
